@@ -1,0 +1,26 @@
+react:
+
+install:
+npm install -g expo-cli
+expo init <namaproject>
+cd <namaproject>
+
+start:
+yarn android --> start android project
+atau
+yarn ios
+atau
+npm start
+
+install lib
+yarn add @react-navigation/native
+
+react-navigation ud install tp blm ada:
+If you are sure the module exists, try these steps:
+ 1. Clear watchman watches: watchman watch-del-all
+ 2. Delete node_modules: rm -rf node_modules and run yarn install
+ 3. Reset Metro's cache: yarn start --reset-cache
+ 4. Remove the cache: rm -rf /tmp/metro-*
+    at ModuleResolver.resolveDependency (C:\Users\Goldy\cashack\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:186:15)
+    at ResolutionRequest.resolveDependency (C:\Users\Goldy\cashack\node_modules\metro\src\node-haste\DependencyGraph\ResolutionRequest.js:52:18)
+    at DependencyGraph.resolveDependency (C:\Users\Goldy\cashack\node_modules\metro\src\node-haste\DependencyGraph.js:287:16)
